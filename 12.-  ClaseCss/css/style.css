@@ -1,0 +1,16 @@
+
+/*ID*/
+#aquitxt{
+    color: aquamarine;
+    font-size: 40px;
+}
+
+/* class */
+.parrafo{
+    color: rgb(255, 174, 127);
+    font-size: 40px;
+}
+
+body {
+    background-color: black;
+}

@@ -1,0 +1,29 @@
+ 
+ .main-nav {
+     margin-top: 10px;
+     list-style: none; /*quita los bullets de la lista*/
+     padding-left: 0%; /*Espacio interno en un contenedor */
+     background-color: rgb(78, 78, 78);
+ }
+
+ .main-nav__item {
+     display: inline-block;
+     margin-top: 1%;
+     margin-bottom: 1%;
+ }
+
+ .main-nav__item a {
+     color: white;
+     padding: 5px;
+     text-decoration: none;
+ }
+ .main-nav__item a:hover {
+     color:blanchedalmond;
+ }
+ .main-nav__item a:active {
+     color: red;
+ }
+
+.main-nav__item a::after {
+    content: " | ";
+}
